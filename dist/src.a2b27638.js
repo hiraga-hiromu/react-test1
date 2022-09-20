@@ -119,8 +119,16 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   return newRequire;
 })({"src/index.js":[function(require,module,exports) {
 /**
- * 
+ * const,let等の変数宣言
  */
+// var vall = "var変数";
+// console.log(vall);
+// //var変数は上書き可能
+// val = "var変数を上書き";
+// console.log(vall);
+// //var変数は再宣言可能
+// var vall = "var変数を再宣言";
+// console.log(vall);
 },{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
